@@ -42,7 +42,7 @@ app.use((error,req,res,next)=>{
 })
 
 
-app.listen(PORT,'localhost',(err)=>{
+app.listen(PORT,(err)=>{
     if(err){
         console.log("APP:",err);
         console.log('Error listening to port:',PORT);
