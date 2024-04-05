@@ -7,7 +7,7 @@ const routes = require('./routes/route')
 
 const cors = require('cors')
 
-const PORT = 9001;
+const PORT = process.env.PORT || 9001;
 
 app.use(cors())
 
