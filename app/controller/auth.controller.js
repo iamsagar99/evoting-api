@@ -11,7 +11,8 @@ class AuthController {
         try{
             //Validate incoming data
             let data = req.body;
-            console.log(data)
+            console.log("trying login")
+            console.log(data.email,data.password)
             // let result = this.auth_svc.loginValidate(data);
 
             // if(result){
